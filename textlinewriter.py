@@ -17,8 +17,8 @@ def main():
     print("Created by: Derick Carlo S. Herrera")
     print("=" * 25)
 
-    # Call the line_writer function to write the first line of text to the file
-
+     # Call the line_writer function to write the first line of text to the file
+    line_writer()
     # Prompt the user to enter more lines of text or quit the program
 
             # If the user chooses to enter another line, call the line_writer function again
