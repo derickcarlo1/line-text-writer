@@ -5,9 +5,10 @@ def line_writer():
     # Open the file in append mode to allow writing new lines to it without deleting previous ones
     with open("mylife.txt", "a") as myfile:
 
-        # Prompt the user to enter a line of text
- 
+       # Prompt the user to enter a line of text
+        user_input = input("Enter a line of text: ")
         # Write the user's input to the file
+        myfile.write(user_input + "\n")
 
 # Define the main function that will be executed when the program is run
 
