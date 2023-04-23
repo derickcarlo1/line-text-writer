@@ -35,3 +35,5 @@ def main():
             print("Invalid choice. Please enter 'y' or 'n' only.")
 
 # Call the main function to start the program
+if __name__ == "__main__":
+    main()
