@@ -28,10 +28,10 @@ def main():
             line_writer()
         elif user_choice.lower() == "n":
             # If the user chooses to quit, display a message indicating that the file is ready and exit the program
-            print("Your file is ready! Thank you for using Text Line Writer.")
+            print("Your file is ready! Thank you for using Text Line Writer!")
             break
         else:
             # If the user enters an invalid choice, display an error message and prompt them again
-            print("Invalid choice. Please enter 'y' or 'n'.")
+            print("Invalid choice. Please enter 'y' or 'n' only.")
 
 # Call the main function to start the program
