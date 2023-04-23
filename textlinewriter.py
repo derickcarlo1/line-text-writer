@@ -19,10 +19,10 @@ def main():
 
      # Call the line_writer function to write the first line of text to the file
     line_writer()
-    
+
      # Prompt the user to enter more lines of text or quit the program
     while True:
-        user_choice = input("Do you want to add another line? (y/n): ")
+        user_choice = input("Do you wish to add another line? (y/n): ")
         if user_choice.lower() == "y":
             # If the user chooses to enter another line, call the line_writer function again
             line_writer()
