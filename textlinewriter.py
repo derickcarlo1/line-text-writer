@@ -1,8 +1,9 @@
 # Import necessary libraries
 
 # Define a function that writes multiple lines of text to a file named mylife.txt
-
+def line_writer():
     # Open the file in append mode to allow writing new lines to it without deleting previous ones
+    with open("mylife.txt", "a") as myfile:
 
         # Prompt the user to enter a line of text
  
