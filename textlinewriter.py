@@ -11,8 +11,11 @@ def line_writer():
         myfile.write(user_input + "\n")
 
 # Define the main function that will be executed when the program is run
-
+def main():
     # Display a header for the program
+    print("=== Text Line Writer ===")
+    print("Created by: Derick Carlo S. Herrera")
+    print("=" * 25)
 
     # Call the line_writer function to write the first line of text to the file
 
