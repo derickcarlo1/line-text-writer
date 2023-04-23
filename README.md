@@ -1,4 +1,4 @@
-# Writing Multiple Lines to a Text File in Python
+# Line Text Writer
 This Python program allows you to write multiple lines of text to a file named "mylife.txt".
 
 # Prerequisites
